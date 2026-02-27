@@ -1,3 +1,29 @@
+## SportSpot - Sports E-commerce Demo
+
+Frontend: Vite + React (components + pages layout).  
+Backend: Node.js + Express + MongoDB.
+
+### Run frontend only
+
+```bash
+npm install
+npm run dev
+```
+
+### Run fullstack (frontend + backend)
+
+1. Copy `.env.example` to `.env` and adjust `MONGO_URI` if needed.
+2. Make sure MongoDB is running.
+3. Start both servers:
+
+```bash
+npm install
+npm run dev:fullstack
+```
+
+Frontend: `http://localhost:5173` (default Vite).  
+Backend API: `http://localhost:5000/api`.
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
